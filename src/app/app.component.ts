@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-tour-of-heroes';
+  title = 'Tour of Heroes';
+  lol: number;
+
+  constructor() {
+    this.lol = 1;
+
+    setTimeout(() => this.lol = 2, 3000);
+  }
 }
