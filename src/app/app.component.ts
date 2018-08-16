@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  lol: number;
-
-  constructor() {
-    this.lol = 1;
-
-    setTimeout(() => this.lol = 2, 3000);
-  }
 }
